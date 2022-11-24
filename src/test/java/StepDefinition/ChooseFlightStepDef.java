@@ -19,8 +19,6 @@ public class ChooseFlightStepDef extends BaseSteps{
 
     @And("I choose flight path from {string} to {string}")
     public void departureCityToDestinationCity(String departure, String destination) {
-        this.departureCity = departure;
-        this.destinationCity = destination;
         HomePage.chooseDepartureCity(departure);
         HomePage.chooseDestinationCity(destination);
     }
@@ -40,8 +38,8 @@ public class ChooseFlightStepDef extends BaseSteps{
         PurchasePage.verifyCorrectFlightPath();
     }
 
-    @Then("I see the correct flight path")
-    public void iSeeTheCorrectFlightPath() {
-        FlightJourney.verifyCorrectFlight(departureCity, destinationCity);
+    @Then("I see the flight path from {string} to {string}")
+    public void iSeeTheFlightPathFromTo(String depCity, String destCity) {
+        FlightJourney.verifyCorrectFlight(depCity, destCity);
     }
 }

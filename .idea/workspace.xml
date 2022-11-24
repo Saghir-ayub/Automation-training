@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732a73de-9cf2-4155-93de-a6e1772a1b94" name="Changes" comment="">
+    <list default="true" id="732a73de-9cf2-4155-93de-a6e1772a1b94" name="Changes" comment="New automation Cucumber project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Features/ChooseFlight.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/Features/ChooseFlight.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/ChooseFlightStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/ChooseFlightStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

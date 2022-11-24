@@ -7,13 +7,13 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 
-    @Before
+    @Before("@scenario1")
     public void beforeScenario() {
         DriverFactory.getDriver();
         System.out.println("this is running before test");
     }
 
-    @After
+    @After("@scenario3")
     public static void afterScenario() {
         System.out.println("this is running after test");
         DriverFactory.tearDownDriver();
