@@ -16,7 +16,7 @@ public class Hooks {
     @After("@scenario3")
     public static void afterScenario() {
         System.out.println("this is running after test");
-        DriverFactory.tearDownDriver();
+//        DriverFactory.tearDownDriver();
     }
 
 }
