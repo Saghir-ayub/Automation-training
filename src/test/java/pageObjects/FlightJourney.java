@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+//test entry
 
 public class FlightJourney extends BasePage {
     public static final By HEADER = By.xpath("//h3");
