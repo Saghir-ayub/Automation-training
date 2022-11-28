@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732a73de-9cf2-4155-93de-a6e1772a1b94" name="Changes" comment="New automation Cucumber project">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/Features/CheckoutPayment.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/UserInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/ChooseFlightStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/ChooseFlightStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/PurchasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PurchasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinition/ChooseFlightStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinition/ChooseFlightStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/PurchasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/PurchasePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

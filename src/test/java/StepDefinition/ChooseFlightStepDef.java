@@ -66,17 +66,4 @@ public class ChooseFlightStepDef extends BaseSteps{
             PurchasePage.inputUserInformation(currentId, currentInformation);
         }
     }
-
-
-//    @Given("I have the following details")
-//    System.out.println(rows.get("Name"));
-//    List<Map<String, String>> rows = table.asMaps(String.class, String.class);
-//    for (Map<String, String> columns : rows) {
-//        listOfUsers.addUser(new UserInformation(columns.get("Name"), columns.get(1),columns.get(2),columns.get(3),columns.get(4),columns.get(5),columns.get(6),columns.get(7),columns.get(8)));
-//    }
-//    for(Users user : listOfUsers){
-//
-//    }
-//    PurchasePage.inputUserInformation(rows.get(0).get("Name"))
-//    System.out.println(rows.get(0).get("Name"));
 }
