@@ -11,5 +11,8 @@ public class PurchasePage extends BasePage {
         String journeySet = driver.findElement(FLIGHT_SET_HEADER).getText();
         Assert.assertEquals("Your flight from TLV to SFO has been reserved.", journeySet);
     }
-
+    public static void inputUserInformation(String infoID, String info){
+        By infoIDSelector = By.id(infoID);
+        FindAndType(infoIDSelector, info);
+    }
 }

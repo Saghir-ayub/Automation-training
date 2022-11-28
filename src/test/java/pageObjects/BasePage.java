@@ -15,8 +15,13 @@ abstract class BasePage {
     protected static WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     protected static Actions action = new Actions(driver);
 
-    static void findAndType(By elementSelector, String inputString) {
+    static void FindAndType(By elementSelector, String inputString) {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(elementSelector));
+        action.keyDown(element, Keys.CONTROL)
+                .sendKeys(element, "a")
+                .keyUp(element,Keys.CONTROL)
+                .sendKeys(element, Keys.DELETE)
+                .build().perform();
         element.sendKeys(inputString);
     }
 
