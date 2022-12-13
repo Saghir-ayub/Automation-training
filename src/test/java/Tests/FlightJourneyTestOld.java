@@ -1,19 +1,7 @@
 package Tests;
 
-import org.apache.commons.io.FileUtils;
-import org.junit.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import pageObjects.FlightJourney;
-import pageObjects.HomePage;
-import pageObjects.PurchasePage;
 
-import java.io.File;
-import java.io.IOException;
-
-
-public class FlightJourneyTests {
+public class FlightJourneyTestOld {
 //    static DriverFactory driverFactory = new DriverFactory();
 //    public static WebDriver driver = driverFactory.getDriver();
 //    private final HomePage homepage = new HomePage(driver);

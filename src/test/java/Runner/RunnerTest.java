@@ -6,5 +6,5 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/Resources/Features", glue = {"StepDefinition"},tags = "@paymentScenario")
-public class Runner {
+public class RunnerTest {
 }
