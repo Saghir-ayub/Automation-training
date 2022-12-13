@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732a73de-9cf2-4155-93de-a6e1772a1b94" name="Changes" comment="New automation Cucumber project" />
+    <list default="true" id="732a73de-9cf2-4155-93de-a6e1772a1b94" name="Changes" comment="New automation Cucumber project">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Runner.RunnerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Runner.RunnerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.RunnerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.RunnerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/FlightJourneyTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
