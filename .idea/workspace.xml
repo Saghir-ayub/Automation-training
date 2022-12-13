@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732a73de-9cf2-4155-93de-a6e1772a1b94" name="Changes" comment="New automation Cucumber project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Runner.RunnerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Runner.RunnerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.RunnerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.RunnerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mainPackage/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mainPackage/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Runner.RunnerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.RunnerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/CheckoutPayment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/ChooseAirline.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/ChooseFlightPath.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinition/BaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinition/BaseSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinition/ChooseFlightStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinition/ChooseFlightStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinition/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinition/Hooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/FlightJourneyTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/FlightJourneyTestOld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/FlightJourneyTestOld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/FlightJourney.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/FlightJourney.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/PurchasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/PurchasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/UserInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/UserInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/Users.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/saghir.ayub/Documents/Automation training/Automation-Cucumber&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/saghir.ayub/Documents/Automation training/Automation-Cucumber/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pageObjects" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\saghir.ayub\Documents\Automation training\Automation-Cucumber\src\test\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\saghir.ayub\Documents\Automation training\Automation-Cucumber\src\test\java\Resources" />
+      <recent name="C:\Users\saghir.ayub\Documents\Automation training\Automation-Cucumber\src\test\java\Resources\Features" />
       <recent name="C:\Users\saghir.ayub\Documents\A23 Dev Academy\Automation-Project-Two\src\test\java\StepDefinition" />
       <recent name="C:\Users\saghir.ayub\Documents\A23 Dev Academy\Automation-Project-Two\src\test\java\Resources" />
     </key>
