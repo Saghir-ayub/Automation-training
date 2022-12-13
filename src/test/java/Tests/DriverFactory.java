@@ -22,8 +22,8 @@ public class DriverFactory {
 
     private static void setDriver() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized", "incognito");
-//        options.addArguments("headless");
+//        options.addArguments("start-maximized", "incognito");
+        options.addArguments("headless");
         driver = new ChromeDriver(options);
     }
 
